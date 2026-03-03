@@ -8,6 +8,7 @@ Os exercícios e implementações contidos refletem o aprendizado universitário
 - **Módulo I:** Ponteiros e Recursividade
 - **Módulo II:** Encapsulamento e Análise de Complexidade
 - **Módulo III:** Tipos Abstratos de Dados (TADs)
+- **Módulo IV:** Listas
 
 ### Tecnologias Utilizadas
 - C
