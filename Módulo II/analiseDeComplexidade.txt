@@ -1,0 +1,50 @@
+2.1) Inserção: 8n²
+     Ordenação: 64n lg(n)
+
+     8n² = 64n lg(n)
+     8n = 64 lg(n)
+     n = 8 lg(n)
+     Se n = 32, então: 8 * lg(32) = 40
+     Se n = 64, então: 8 * lg(64) = 48
+
+     Assim, quando n >= 64, o algoritmo por Inserção será mais lento que o de Ordenação.
+
+
+2.2)
+    Algoritmo A: 100n²
+    Algoritmo B: 2^n
+
+    Utilizando tentativa e falha é possível concluir que:
+
+    Se n = 14, então: A = 19.600 e B = 16.384.
+    se n = 15, então: A = 22.500 e B = 32.768.
+
+    O menor valor de n seria 14.
+
+2.3)   
+    Significa que o tempo de execução de g(n) sempre será menor ou igual a um múltiplo
+    de f(n). Que seja, f(n) está definindo o limite superior de tempo que g(n) pode ter.
+    0 <= g(n) <= c*f(n)
+
+2.4)
+    Significa que o tempo de execução de g(n) será pelo menos igual ou maior que f(n)*c.
+    Definindo assim, o limite inferior que g(n) terá.
+    0 <= c*f(n) <= g(n)
+
+2.5)
+    Uma vez que a notação big O representa um limite máximo de um algoritmo, utiliza-lo como
+    medida mínima de tempo vai contra a sua própria proposta.
+
+2.6)
+    Algoritmo A: n² - n + 500
+    Algoritmo B: 47n + 47
+
+    n² -n + 500 = 47n + 47
+    n² -48n +453 = 0
+
+    raiz de delta: 22,1
+
+    n1 = (48 - 22,1)/2 = 12,95
+    n2 = (48 + 22,1)/2 = 35,05
+
+    O algoritmo A leva menos tempo com 13 <= n <= 35
