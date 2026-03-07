@@ -1,4 +1,4 @@
-#include "LSE.h"
+#include "estatica.h"
 
 typedef struct lista{
 
@@ -78,3 +78,4 @@ void remocao(Lista* lista, int numero){
         }
     }
 }
+

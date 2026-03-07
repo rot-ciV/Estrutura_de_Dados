@@ -1,4 +1,4 @@
-#include "LSE.hpp"
+#include "estatica.hpp"
 
 int main(){
 
