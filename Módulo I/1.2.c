@@ -28,7 +28,7 @@ int MaiorElemento(int* vetor, int n){
 * @param vetor: ponteiro para um array de inteiros.
 * @param n: Número total de elementos do vetor.
 * @return: Menor valor encontrado.
-*/
+*/  
 int MenorElemento(int* vetor, int n){
 
     int menor = vetor[0];
